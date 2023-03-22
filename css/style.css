@@ -1,7 +1,4 @@
 
-
-/* HEADER */
-
 /* impostazioni generali */
 
 body{
@@ -9,14 +6,21 @@ body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+
+
+/* HEADER */
+
+
 header{
     background-color: rgba(255,105,0,255);
+    box-shadow: 2px 2px 2px gray;
     height: 80px;
     width: 100%;
     color: white;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 50
 }
 
 .container{
@@ -32,6 +36,7 @@ ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    padding: 0;
 }
 
 .modello{
@@ -48,9 +53,136 @@ i{
 
 
 
+/* MAIN */
+
+main{
+    margin: 80px 10% 0;
+}
+
+.product-col{
+    width: 32%;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.product-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-1{
+    width: 100%;
+    background-size: contain;  
+}
+
+.foto-2{
+    width: 100%;
+    background-size: contain;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.product-image{
+    position: relative;
+}
+
+.product-image:hover .foto-2{
+    display: inline-block;
+}
+
+.like:hover .cuore-rosso{
+    display: inline-block;
+}
+
+.like{
+    cursor: pointer;
+}
+
+.label{
+    background-color: rgba(255,0,0,255);
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    z-index: 10    
+}
+
+.cuore{
+    background-color: white;
+    font-size: 23px;
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.cuore-rosso{
+    background-color: white;
+    color: red;
+    font-size: 23px;
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display:none;
+}
+
+
+/* Descrizione prodotti */
+
+.prezzo-scontato{
+    color: rgba(255,0,0,255);
+}
+
+.prezzo-originale{
+    text-decoration: line-through;
+}
 
 
 
 
 
 
+/* 
+
+.foto-1{
+    width: 100%;
+    background-size: contain;  
+}
+
+.foto-2{
+    width: 100%;
+    background-size: contain;
+    display: none;
+    position: absolute;
+}
+
+.cuore{
+
+ 
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.cuore-rosso{
+ 
+
+
+    padding: 8px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    display:none;
+}
+
+*/
