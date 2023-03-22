@@ -1,0 +1,56 @@
+
+
+/* HEADER */
+
+/* impostazioni generali */
+
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background-color: rgba(255,105,0,255);
+    height: 80px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    height: 100%;
+    margin: 0 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.modello{
+    margin: 0 5px;
+}
+
+#logo{
+    height: 50%;
+}
+
+i{
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
+
+
