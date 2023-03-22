@@ -4,6 +4,7 @@
 body{
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 70px;
 }
 
 
@@ -67,7 +68,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 50px 0 0;
 }
 
 .product-info{
@@ -148,41 +149,14 @@ main{
 
 
 
+/* FOOTER */
 
 
 
-/* 
-
-.foto-1{
-    width: 100%;
-    background-size: contain;  
-}
-
-.foto-2{
-    width: 100%;
-    background-size: contain;
-    display: none;
-    position: absolute;
-}
-
-.cuore{
-
- 
-    padding: 8px;
-    position: absolute;
-    top: 15px;
-    right: 0;
-}
-
-.cuore-rosso{
- 
 
 
-    padding: 8px;
-    position: absolute;
-    top: 15px;
-    right: 0;
-    display:none;
-}
 
-*/
+
+
+
+
