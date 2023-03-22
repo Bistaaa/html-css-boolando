@@ -4,7 +4,6 @@
 body{
     margin: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 70px;
 }
 
 
@@ -58,6 +57,7 @@ i{
 
 main{
     margin: 80px 10% 0;
+    padding-bottom: 70px;
 }
 
 .product-col{
@@ -116,6 +116,16 @@ main{
     z-index: 10    
 }
 
+.sostenibilità{
+    background-color: rgba(0,128,0,255);
+    color: white;
+    padding: 5px 15px;
+    position: absolute;
+    bottom: 60px;
+    left: 67px;
+    z-index: 10
+}
+
 .cuore{
     background-color: white;
     font-size: 23px;
@@ -151,10 +161,34 @@ main{
 
 /* FOOTER */
 
+footer{
+    background-color: rgba(26,26,26,255);
+    height: 100px;
+    padding: 0 10%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.extra{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    font-size: 12px;
+    gap: 10px;
+}
 
+.social{
+    text-align: center;
+    font-size: 14px;
+}
 
-
+.icone{
+    gap: 10px;
+    margin: 10px;
+}
 
 
 
